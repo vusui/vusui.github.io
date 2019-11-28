@@ -1,0 +1,72 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><title>Vusui 跨屏响应式CSS/HTML前端框架</title><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="renderer" content="webkit"><meta name="author" content="vusui.com"><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"><meta name="description" content="Vusui跨屏响应式CSS/HTML前端框架，让web前端开发更简单、灵活、便捷。"><meta name="keyword" content="vusui,vus,CSS,CSS3,CSS框架,CSS framework,HTML,HTML5,javascript,js,front-end framework,frontend framework,前端框架,web前端"><link rel="shortcut icon" href="/favicon.ico"><link href="/static/css/styles.00f2798.css?00f27989aa70c168b868" rel="stylesheet"></head><body><div class="vus-wrapper"><header class="vus-header vus-fixed vus-position-top vus-position-left vus-w-100 vus-border-bottom-1"><div class="vus-container"><a href="index.html" class="logo-box vus-fl vus-mt-10" title="vusui.com"><div class="logo vus-fl"></div><h1 class="vus-fl vus-fs-30 vus-fw-normal vus-ml-5">vusui</h1></a><div class="vus-menu vi-nav" vus-nav="button"></div><div class="vus-nav-mask vus-anim" vus-nav="mask"></div><nav class="vus-nav-drawer vusui vus-anim" vus-nav="drawer"><ul class="vus-nav"><li class="item" vus-nav-active="index"><a class="link" href="index.html"><i class="icon vi-home"></i> <span class="text">首页</span></a></li><li class="item" vus-nav-active="css"><a class="link" href="css.html"><i class="icon vi-css3"></i> <span class="text">CSS样式</span></a></li><li class="item" vus-nav-active="icon"><a class="link" href="icon.html"><i class="icon vi-font"></i> <span class="text">Icon图标</span></a></li><li class="item" vus-nav-active="component"><a class="link" href="component.html"><i class="icon vi-component"></i> <span class="text">组件</span></a></li><li class="item" vus-nav-active="v1"><a class="link" href="https://github.com/vusui/vusui1" target="_blank"><i class="icon vi-plugin"></i> <span class="text">Vusui 1.x</span></a></li></ul><div id="menu-nav"></div></nav></div></header><div class="vus-container vus-mt-60"><div class="vus-aside vus-aside-vusui vus-fixed" leftmenuscroll><ul class="aside-group vus-pt-30 vus-pb-20"><li class="vus-fs-16 vus-mb-5 vus-color--dark vus-fw-bold">组件</li><li vus-menu-active="component-nav"><a href="component.html">Nav导航菜单</a></li><li vus-menu-active="component-animation"><a href="component-animation.html">Animation动画</a></li><li vus-menu-active="component-drawer"><a href="component-drawer.html">Drawer抽屉</a></li><li vus-menu-active="component-button"><a href="component-button.html">Icon图标按钮</a></li><li vus-menu-active="component-select"><a href="component-select.html">Select选择菜单</a></li><li vus-menu-active="component-anchor"><a href="component-anchor.html">Anchor锚点定位</a></li><li vus-menu-active="component-backtop"><a href="component-backtop.html">BackTop返回顶部</a></li></ul><ul class="aside-group vus-pb-50"><li class="vus-fw-bold vus-color--red">持续更新中，敬请关注！</li></ul></div><div class="vus-main"><div class="vus-pt-40 vus-pl-md-40"><h2 class="vus-h2 vus-border-bottom-1 vus-pb-10">Icon图标按钮</h2><p class="vus-p">带Icon图标的操作按钮。</p><h4 class="vus-h4 vus-mb-15 vus-pt-60" id="jichuyongfa"><a href="#jichuyongfa" class="vus-anchor" data-text="#">基础用法</a></h4><p class="vus-p">图标按钮内置了<code class="vus-code">.icon</code>和<code class="vus-code">.text</code>样式，其中<code class="vus-code">.icon</code>代表Icon图标，<code class="vus-code">.text</code>代表文字信息。例如：</p><fieldset class="vus-demo demo-box"><button type="button" class="vus-btn primary"><i class="icon vi-back"></i> <span class="text">返回</span></button> <button type="button" class="vus-btn primary"><span class="text">日期</span> <i class="icon vi-date-o"></i></button> <button type="button" class="vus-btn primary vus-radius-large"><i class="icon vi-like"></i> <span class="text">点赞</span></button> <button type="button" class="vus-btn primary"><i class="icon vi-zoom"></i></button> <button type="button" class="vus-btn primary"><i class="icon vi-mail-o vus-fs-22"></i> <strong class="vus-badge pill sup-right">5</strong></button> <button type="button" class="vus-btn circle primary"><i class="icon vi-gear"></i></button> <button type="button" class="vus-btn circle primary"><i class="icon vi-bell vus-fs-18"></i> <strong class="vus-badge pill sup-right">9+</strong></button></fieldset><pre class="vus-pre scrollbar" v--lang="html">
+&lt;button type="button" class="<code class="vus-code">vus-btn</code>"&gt;
+   &lt;i class="<code class="vus-code">icon vi-back</code>"&gt;&lt;/i&gt;
+   &lt;span class="<code class="vus-code">text</code>"&gt;返回&lt;/span&gt;
+&lt;/button&gt;
+
+<code class="vus-code light">&lt;!-- 图标在右侧 --&gt;</code>
+&lt;button type="button" class="<code class="vus-code">vus-btn</code>"&gt;
+   &lt;span class="<code class="vus-code">text</code>"&gt;日期&lt;/span&gt;
+   &lt;i class="<code class="vus-code">icon vi-date-o</code>"&gt;&lt;/i&gt;
+&lt;/button&gt;
+
+<code class="vus-code light">&lt;!-- 无文字按钮 --&gt;</code>
+&lt;button type="button" class="<code class="vus-code">vus-btn</code>"&gt;
+   &lt;i class="<code class="vus-code">icon vi-zoom</code>"&gt;&lt;/i&gt;
+&lt;/button&gt;
+
+<code class="vus-code light">&lt;!-- 设置图标大小 --&gt;</code>
+&lt;button type="button" class="<code class="vus-code">vus-btn</code>"&gt;
+   &lt;i class="<code class="vus-code">icon vi-mail-o vus-fs-22</code>"&gt;&lt;/i&gt;
+&lt;/button&gt;
+
+<code class="vus-code light">&lt;!-- 圆形图标按钮 --&gt;</code>
+&lt;button type="button" class="<code class="vus-code">vus-btn circle</code>"&gt;
+   &lt;i class="<code class="vus-code">icon vi-gear</code>"&gt;&lt;/i&gt;
+&lt;/button&gt;
+</pre><h4 class="vus-h4 vus-mb-15 vus-pt-60" id="anniuzu"><a href="#anniuzu" class="vus-anchor" data-text="#">按钮组</a></h4><div class="vus-p">使用<code class="vus-code">.vus-btn-group</code>类，将按钮包裹起来组成按钮组。例如：</div><fieldset class="vus-demo demo-box"><div class="vus-mb-5 vus-fw-bold">带文字</div><form class="vus-btn-group"><button type="button" class="vus-btn primary"><i class="icon vi-arrow"></i> <span class="text">上一页</span></button> <button type="button" class="vus-btn primary"><span class="text">下一页</span> <i class="icon vi-arrow vus-rotate-180"></i></button></form><div class="vus-mb-5 vus-mt-15 vus-fw-bold">无文字</div><div class="vus-pb-15"><form class="vus-btn-group"><button type="button" class="vus-btn"><i class="icon vi-plus"></i></button> <button type="button" class="vus-btn"><i class="icon vi-edit-o"></i></button> <button type="button" class="vus-btn"><i class="icon vi-shop-cart-o"></i></button> <button type="button" class="vus-btn"><i class="icon vi-trash-o"></i></button></form></div><div class="vus-pb-15"><form class="vus-btn-group"><button type="button" class="vus-btn outline primary"><i class="icon vi-plus"></i></button> <button type="button" class="vus-btn outline primary"><i class="icon vi-edit-o"></i></button> <button type="button" class="vus-btn outline primary"><i class="icon vi-shop-cart-o"></i></button></form></div><div class="vus-pb-15"><form class="vus-btn-group"><button type="button" class="vus-btn danger"><i class="icon vi-plus"></i></button> <button type="button" class="vus-btn danger"><i class="icon vi-edit-o"></i></button> <button type="button" class="vus-btn outline danger"><i class="icon vi-shop-cart-o"></i></button></form></div><div class="vus-bg--dark vus-pt-10 vus-pl-10 vus-pr-10 vus-pb-10 vus-radius-4"><div class="vus-pb-10"><form class="vus-btn-group"><button type="button" class="vus-btn white"><i class="icon vi-plus"></i></button> <button type="button" class="vus-btn white"><i class="icon vi-edit-o"></i></button> <button type="button" class="vus-btn white"><i class="icon vi-shop-cart-o"></i></button> <button type="button" class="vus-btn white"><i class="icon vi-trash-o"></i></button></form></div><div><form class="vus-btn-group"><button type="button" class="vus-btn outline white"><i class="icon vi-plus"></i></button> <button type="button" class="vus-btn outline white"><i class="icon vi-edit-o"></i></button> <button type="button" class="vus-btn outline white"><i class="icon vi-shop-cart-o"></i></button> <button type="button" class="vus-btn outline white"><i class="icon vi-trash-o"></i></button></form></div></div></fieldset><pre class="vus-pre scrollbar" v--lang="html">
+&lt;form class="<code class="vus-code">vus-btn-group</code>"&gt;
+   &lt;button type="button" class="<code class="vus-code">vus-btn</code>"&gt;
+      &lt;i class="<code class="vus-code">icon vi-arrow</code>"&gt;&lt;/i&gt;
+      &lt;span class="<code class="vus-code">text</code>"&gt;上一页&lt;/span&gt;
+   &lt;/button&gt;
+  
+   <code class="vus-code light">&lt;!-- 图标在右侧 --&gt;</code>
+   &lt;button type="button" class="<code class="vus-code">vus-btn</code>"&gt;
+      &lt;span class="<code class="vus-code">text</code>"&gt;下一页&lt;/span&gt;
+      &lt;i class="<code class="vus-code">icon vi-arrow vus-rotate-180</code>"&gt;&lt;/i&gt;
+   &lt;/button&gt;
+&lt;form&gt;
+
+&lt;form class="<code class="vus-code">vus-btn-group</code>"&gt;
+   <code class="vus-code light">&lt;!-- 无文字按钮 --&gt;</code>
+   &lt;button type="button" class="<code class="vus-code">vus-btn</code>"&gt;
+      &lt;i class="<code class="vus-code">icon vi-plus</code>"&gt;&lt;/i&gt;
+   &lt;/button&gt;
+   &lt;button type="button" class="<code class="vus-code">vus-btn</code>"&gt;
+      &lt;i class="<code class="vus-code">icon vi-edit-o</code>"&gt;&lt;/i&gt;
+   &lt;/button&gt;
+   &lt;button type="button" class="<code class="vus-code">vus-btn</code>"&gt;
+      &lt;i class="<code class="vus-code">icon vi-shop-cart-o</code>"&gt;&lt;/i&gt;
+   &lt;/button&gt;
+   &lt;button type="button" class="<code class="vus-code">vus-btn</code>"&gt;
+      &lt;i class="<code class="vus-code">icon vi-trash-o</code>"&gt;&lt;/i&gt;
+   &lt;/button&gt;
+&lt;form&gt;
+</pre><h4 class="vus-h4 vus-mb-15 vus-pt-60" id="loading"><a href="#loading" class="vus-anchor" data-text="#">Loading 按钮</a></h4><div class="vus-p">提交数据加载操作，在按钮上显示Loading状态。例如：</div><fieldset class="vus-demo demo-box"><button type="button" class="vus-btn primary loading" disabled><i class="icon vi-spinner vus-anim spin-pulse"></i> <span class="text">加载中...</span></button> <button type="button" class="vus-btn loading success" disabled><i class="icon vi-loading vus-anim spin"></i> <span class="text">加载中...</span></button> <button type="button" class="vus-btn loading outline" disabled><i class="icon vi-spinner vus-anim spin-pulse"></i> <span class="text">加载中...</span></button> <button type="button" class="vus-btn loading outline danger" disabled><i class="icon vi-loading vus-anim spin"></i> <span class="text">加载中...</span></button></fieldset><pre class="vus-pre scrollbar" v--lang="html">
+&lt;button type="button" class="<code class="vus-code">vus-btn loading</code>"&gt;
+   &lt;i class="<code class="vus-code">icon vi-spinner vus-anim spin-pulse</code>"&gt;&lt;/i&gt;
+   &lt;span class="<code class="vus-code">text</code>"&gt;加载中...&lt;/span&gt;
+&lt;/button&gt;
+  
+&lt;button type="button" class="<code class="vus-code">vus-btn</code>"&gt;
+   &lt;i class="<code class="vus-code">icon vi-loading vus-anim spin</code>"&gt;&lt;/i&gt;
+   &lt;span class="<code class="vus-code">text</code>"&gt;加载中...&lt;/span&gt;
+&lt;/button&gt;
+</pre><div id="guidelinks"></div></div></div></div><div class="vus-backtop vi-arrow-back vus-anim fast vus-rotate-90" vus-back-top></div></div><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?688b3aa750b80da8aad25299ae797201";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();</script><script type="text/javascript" src="/static/js/commons.bundle.js?00f27989aa70c168b868"></script><script type="text/javascript" src="/static/js/component-button.bundle.00f2798.js?00f27989aa70c168b868"></script></body></html>

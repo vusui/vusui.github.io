@@ -1,0 +1,2 @@
+webpackJsonp([37],{21:function(n,e,t){"use strict";var u=t(0);document.title=u.title.componentIndex+u.title.defaultTitle,(0,u.active)("component","component-nav"),(0,u.guideLinks)(null,null,"component-animation","Animation动画"),(0,u.menuNav)("menu-nav",u.MenuComponentNav),u.Vus.menu("nav",1),u.Vus.menu("nav",2),u.Vus.menu("nav",3)}},[21]);
+//# sourceMappingURL=component.bundle.00f2798.js.map

@@ -1,0 +1,2 @@
+webpackJsonp([22],{36:function(s,e,t){"use strict";var i=t(0);document.title=i.title.cssImage+i.title.defaultTitle,(0,i.active)("css","css-image"),(0,i.guideLinks)("css-border","边界","css-tips","文字提示"),(0,i.menuNav)("menu-nav",i.MenuCssNav)}},[36]);
+//# sourceMappingURL=css-image.bundle.00f2798.js.map

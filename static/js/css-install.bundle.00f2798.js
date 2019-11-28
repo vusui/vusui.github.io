@@ -1,0 +1,2 @@
+webpackJsonp([20],{38:function(s,t,e){"use strict";var c=e(0);document.title=c.title.cssInstall+c.title.defaultTitle,(0,c.active)("css","css-install"),(0,c.guideLinks)("css","介绍","css-quickstart","快速上手"),(0,c.menuNav)("menu-nav",c.MenuCssNav)}},[38]);
+//# sourceMappingURL=css-install.bundle.00f2798.js.map
