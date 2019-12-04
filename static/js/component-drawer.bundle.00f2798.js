@@ -1,2 +1,0 @@
-webpackJsonp([39],{19:function(n,e,t){"use strict";var o=t(0);document.title=o.title.componentDrawer+o.title.defaultTitle,(0,o.active)("component","component-drawer"),(0,o.guideLinks)("component-animation","Animation动画","component-button","Icon图标按钮"),(0,o.menuNav)("menu-nav",o.MenuComponentNav),o.Vus.menu("drawer"),o.Vus.menu("drawer","top"),o.Vus.menu("drawer","right"),o.Vus.menu("drawer","bottom")}},[19]);
-//# sourceMappingURL=component-drawer.bundle.00f2798.js.map

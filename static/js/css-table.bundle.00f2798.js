@@ -1,2 +1,0 @@
-webpackJsonp([6],{52:function(s,t,e){"use strict";var c=e(0);document.title=c.title.cssTable+c.title.defaultTitle,(0,c.active)("css","css-table"),(0,c.guideLinks)("css-color","颜色","css-button","按钮"),(0,c.menuNav)("menu-nav",c.MenuCssNav)}},[52]);
-//# sourceMappingURL=css-table.bundle.00f2798.js.map

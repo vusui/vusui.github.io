@@ -1,2 +1,0 @@
-webpackJsonp([38],{20:function(e,n,t){"use strict";var o=t(0);document.title=o.title.componentSelect+o.title.defaultTitle,(0,o.active)("component","component-select"),(0,o.guideLinks)("component-button","Icon图标按钮","component-anchor","Anchor锚点定位"),(0,o.menuNav)("menu-nav",o.MenuComponentNav),o.Vus.select("select")}},[20]);
-//# sourceMappingURL=component-select.bundle.00f2798.js.map

@@ -1,2 +1,0 @@
-webpackJsonp([41],{17:function(t,o,e){"use strict";var n=e(0);document.title=n.title.componentBackTop+n.title.defaultTitle,(0,n.active)("component","component-backtop"),(0,n.guideLinks)("component-anchor","Anchor锚点定位"),(0,n.menuNav)("menu-nav",n.MenuComponentNav),n.Vus.backtop("[vus-back-top-demo]",{width:"40px",height:"40px",lineHeight:"40px",color:"#fff",fontSize:"18px",right:"100px",bottom:"200px",radius:"50%",bgColor:"rgba(200, 0, 0, .5)"},50)}},[17]);
-//# sourceMappingURL=component-backtop.bundle.00f2798.js.map
